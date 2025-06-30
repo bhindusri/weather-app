@@ -1,18 +1,29 @@
 # 🌦 Weather App
 
-A modern weather dashboard built with HTML, CSS, JS & OpenWeatherMap.
+A modern, real-time weather dashboard built with HTML, CSS, JavaScript, jQuery & Bootstrap.
 
-## ✅ Features
-- Real-time weather by city or geolocation
-- 5-day forecast
-- Toggle °C/°F
-- Sunrise & sunset times
-- Air Quality Index
-- Dark mode toggle
-- Save favorite cities
-- Animated background
+## 🚀 Features
+✅ Current weather by city name or geolocation  
+✅ 5-day forecast  
+✅ Toggle °C/°F  
+✅ Current date & time  
+✅ Sunrise & sunset times  
+✅ Air Quality Index (AQI)  
+✅ Dark mode toggle  
+✅ Save favorite cities (stored locally)  
+✅ Smooth animated background  
+✅ Responsive & mobile-friendly
 
-## 🚀 Live site
-Will deploy soon: [Your live site name here]
+## 🛠 Built With
+- HTML5 & CSS3
+- Bootstrap 5
+- JavaScript & jQuery
+- OpenWeatherMap API
 
----
+## 📦 How to run locally
+1. Clone this repo or [download ZIP](#)
+2. Replace `'9b4b044a77aa3182fadf50c2f4619388'` in `script.js` with your OpenWeatherMap API key.
+3. Open `index.html` in your browser.
+
+## 🌐 Live Demo
+> Coming soon: Deployed on GitHub Pages!
