@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.app-title {
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+#dateTime {
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+.weather-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+.forecast-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+#message p {
+  color: #ffdede;
+}
+.dark-mode {
+  background: linear-gradient(135deg, #1e1e1e, #333333) !important;
+  color: #f0f0f0;
+}
+.dark-mode .weather-card, 
+.dark-mode .forecast-card {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+}
