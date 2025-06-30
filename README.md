@@ -26,4 +26,5 @@ A modern, real-time weather dashboard built with HTML, CSS, JavaScript, jQuery &
 3. Open `index.html` in your browser.
 
 ## 🌐 Live Demo
-> Coming soon: Deployed on GitHub Pages!
+https://bhindusri.github.io/weather-app
+
